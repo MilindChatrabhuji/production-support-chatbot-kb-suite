@@ -1,0 +1,15 @@
+{
+  "name": "@incomeengine/edge-support-gateway",
+  "version": "1.0.0",
+  "description": "Cloudflare Workers Edge Support Gateway & CRM Webhook",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "ts-node src/demo_runner.ts",
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.3",
+    "ts-node": "^10.9.2",
+    "@cloudflare/workers-types": "^4.20240117.0"
+  }
+}

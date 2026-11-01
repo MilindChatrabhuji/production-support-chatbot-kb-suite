@@ -1,0 +1,11 @@
+name = "support-edge-gateway"
+main = "src/worker.ts"
+compatibility_date = "2024-01-01"
+
+[vars]
+SUPPORT_API_SECRET = "whsec_prod_support_gateway_sample"
+
+[[d1_databases]]
+binding = "SUPPORT_DB"
+database_name = "support_db"
+database_id = "00000000-0000-0000-0000-000000000000"

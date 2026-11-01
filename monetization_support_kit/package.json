@@ -1,0 +1,14 @@
+{
+  "name": "@incomeengine/monetization-support-kit",
+  "version": "1.0.0",
+  "description": "Enterprise AI Support Retainer Agreements & Invoicing Engine",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "ts-node src/demo_runner.ts",
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.3",
+    "ts-node": "^10.9.2"
+  }
+}
